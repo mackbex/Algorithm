@@ -1,2 +1,4 @@
 rootProject.name = 'Algorithm'
 
+include ":Java"
+include ":Python"
