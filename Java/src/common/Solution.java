@@ -14,6 +14,7 @@ public class Solution {
 
         Assert.assertEquals(Solution.solution(1124), false);
     }
+    
     List<Set<Integer>> list = new LinkedList<>();
     public static boolean solution(int n) {
         if(n == 0 || n == 1) return false;

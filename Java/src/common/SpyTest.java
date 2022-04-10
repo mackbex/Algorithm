@@ -17,6 +17,7 @@ public class SpyTest {
 //        Assert.assertEquals(SpyTest.solution(cloths), false);
     }
 
+
     public static String solution(String[][] cloths) {
         Map<String, Integer> map = new HashMap<>();
         for(String[] cloth : cloths) {
@@ -24,7 +25,7 @@ public class SpyTest {
             map.put(type, map.getOrDefault(type,0) + 1);
         }
 
-        while(map.values().iterator().ne)
+//        while(map.values().iterator().ne)
 
         return "true";
     }
