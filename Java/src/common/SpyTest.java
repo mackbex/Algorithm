@@ -13,6 +13,8 @@ public class SpyTest {
                 {"green_turban","headgear"}
         };
 
+
+
         SpyTest.solution(cloths);
 //        Assert.assertEquals(SpyTest.solution(cloths), false);
     }

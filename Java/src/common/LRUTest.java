@@ -1,5 +1,8 @@
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+
 import org.junit.Test;
 
 public class LRUTest {
@@ -10,6 +13,10 @@ public class LRUTest {
         LRUTest test = new LRUTest();
         int[] t = {1, 2, 3, 2, 6, 2, 3, 5, 7};
         System.out.println(test.solution(5, 9, t));
+        
+        String str = "APPLE";
+
+        int a = str.charAt(index)
     }
 
     int[] solution(int size, int n, int[] arr) {
@@ -29,4 +36,6 @@ public class LRUTest {
 
         return bucket;
     }
+
+
 }
